@@ -47,11 +47,14 @@ width:70%
  position: relative;
  width:500%;
  height:10px;
+ border-radius:2.5%;
 }
 .iipole{
 background:#36292c;
 width:75%;
+height:10px;
 position:absolute;
+border-radius:2.5%;
 }
 
 img {
