@@ -4,6 +4,12 @@ td, tr, table {
 hr{
 border: 1px solid #e1dfba;
 }
+.PowerWiki{
+text-alight:left;
+}
+.Cemex{
+text-align:left;
+}
 
 h1, h2, h3, h4, h5, h6 {
     color: #e1dfba;
