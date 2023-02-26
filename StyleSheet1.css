@@ -55,6 +55,10 @@ height:10px;
 position:absolute;
 border-radius:25px;
 }
+.Projekty{
+position:relative;
+min-height:100px;
+}
 
 img {
     height: 150px;
