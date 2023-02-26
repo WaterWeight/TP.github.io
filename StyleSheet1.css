@@ -2,7 +2,7 @@ td, tr, table {
     border: 1px solid white;
 }
 hr{
-color:#e1dfba;
+border: 1px solid #e1dfba;
 }
 
 h1, h2, h3, h4, h5, h6 {
