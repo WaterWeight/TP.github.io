@@ -49,16 +49,17 @@ width:70%
  height:10px;
  border-radius:25px;
 }
+.RightDiv .Projekt{
+position:relative;
+min-height:100px;
+}
 .iipole{
 background:#36292c;
 height:10px;
 position:absolute;
 border-radius:25px;
 }
-.RightDiv .Projekt{
-position:relative;
-min-height:100px;
-}
+
 
 img {
     height: 150px;
