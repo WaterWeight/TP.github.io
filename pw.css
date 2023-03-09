@@ -4,10 +4,15 @@ body {
     background-color: #151f43;
 }
 .strona{
-height: 100%;
-width:100%;
+    min-height: 1000px;
+    max-width:1000px;
+    height: 100%;
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 4r;
 }
 .lpasek{
+position: relative;
 background-color: #151f43;
 height:100%;
 width:60px;
