@@ -1,27 +1,104 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: #151f43;
+    margin:0;
+    padding:0;
+    min-height:100%;
 }
-.strona {
-    min-height: 1000px;
-    max-width:1000px;
-    width: 100%;
-    position: relative;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+
+div {
 
 }
 
-    .strona .lpasek {
-        position: relative;
-        background-color: #7f7e90;
-        padding: 40px;
-        width:100%;
+    div.pasek {
+        position: sticky;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 60px;
+        background-color: #EDEEFF
     }
-    .HeadDiv .pstrona {
-        position: relative;
-        background-color: #36292c;
-        padding:40px;
-        width:70%;
+
+    div.środek {
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        left: 0px;/*60px;*/
+        height: 100%;
+        width: 100%;
+        background-color: #151f43;
     }
+
+    div.gkon {
+        height: 100vh;
+        width: 100vw;
+        margin: 0px;
+    }
+
+    div.gorlogo{
+        margin-left:auto;
+        margin-right:auto;
+        height:350px;
+        width:600px;
+    }
+
+    div.info {
+        background-color: #454B73;
+        opacity: 0.5;
+        border-radius: 30px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+        width: 800px;
+        top: 30vh;
+        text-align: center;
+        color: #EDEEFF;
+    }
+
+    .gorlogo .logo {
+    height: 350px;
+    width: 600px; 
+    }
+
+div.searchb {
+    margin-left:auto;
+    margin-right:auto;
+    opacity:0.5;
+    display: flex;
+    width: 35%;
+    height: 50px;
+    border-radius: 60px;
+    background-color: #EDEEFF;
+    align-items:center;
+}
+
+.searchb input{
+    background:transparent;
+    border:0;
+    padding:24px;
+    max-height:50px;
+    max-width:600px;
+    width:600px;
+}
+
+.searchb button {
+    background: transparent;
+    border: 0;
+    margin-right: 5px;
+    max-height: 50px;
+    max-width: 50px;
+}
+.searchb img {
+    background-color: #EDEEFF;
+    display:flex;
+    margin: 0;
+    border:0;
+    cursor:pointer;
+    max-height: 35px;
+    max-width: 35px;
+
+}
