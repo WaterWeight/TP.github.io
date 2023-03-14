@@ -2,11 +2,11 @@ td, tr, table {
     border: 1px solid white;
 }
 hr{
-border: 1px solid #e1dfba;
+border: 1px solid white/*#e1dfba*/;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #e1dfba;
+    color: white/*#e1dfba*/;
     text-align: center;
     font-family: sans-serif;
 }
@@ -49,7 +49,7 @@ text-align:left;
 width:70%
 }
 .ipole{
- background:#e1dfba;   
+ background:white/*#e1dfba*/;   
  position: relative;
  width:140%;
  height:10px;
